@@ -35,7 +35,7 @@ MORE_TEXT = """
  ᴛʜɪs ɪs ˹sᴀɴᴋɪ ᴍᴜsɪᴄ˼ 🫧,
 ᴀɴ ᴏᴩᴇɴ sᴏᴜʀᴄᴇ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴩ ᴍᴜsɪᴄ ʙᴏᴛ.
 
-ʜᴇʀᴇ ɪs ᴍʏ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : [ɢɪᴛʜᴜʙ](https://github.com/Its-ariyan/Dark-Music)
+ʜᴇʀᴇ ɪs ᴍʏ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : [ɢɪᴛʜᴜʙ](https://github.com/Its-ariyan/DarkxMusic)
 
 ᴅᴏɴ'ᴛ ғᴏʀɢᴇᴛ ᴛᴏ ɢɪᴠᴇ ᴀ sᴛᴀʀ ᴛᴏ ᴛʜᴇ ʀᴇᴘᴏsɪᴛᴏʀʏ... ✨
 ʀᴇᴘᴏʀᴛ ʙᴜɢs ᴀᴛ [sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ](https://t.me/ariyan_discus)
@@ -93,7 +93,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(
-                        "🏡 ʙᴏᴛ ᴏᴡɴᴇʀ", url=f"tg://user?id={OWNER_ID}"),
+                        "🏡 ʙᴏᴛ ᴏᴡɴᴇʀ", url=f"https://t.me/{OWNER_USERNAME}"),
                     InlineKeyboardButton(
                         "🔹 sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", callback_data="more_info")
                 ],
