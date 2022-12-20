@@ -3,7 +3,7 @@ from pyrogram import filters
 from pyrogram.types import Message
 from pyrogram import Client
 from pyrogram.types import CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup
-from modules.config import BOT_USERNAME, OWNER_ID
+from modules.config import BOT_USERNAME, OWNER_ID, OWNER_USERNAME
 from pyrogram.errors import MessageNotModified
 
 HOME_TEXT = """
