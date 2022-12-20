@@ -74,3 +74,18 @@ async def showid(_, message: Message):
                 f"<code>{file_info.file_id}</code>\n"
             )
         await message.reply_text(_id)
+
+@Client.on_message(command(["repo", "source"]) & filters.group & ~filters.edited)
+async def help(client: Client, message: Message):
+    await message.reply_photo(
+        photo=f"https://telegra.ph/file/f01f58c3d9b187ae1d8a1.jpg",
+        caption=f"""Here Is The Source Code Fork And Give Stars ✨""",
+        reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton(
+                        " ʀᴇᴘᴏ ⚒️", url=f"https://github.com/Prince-ariyan-143/ariyanXmusic")
+                ]
+            ]
+        ),
+    )
